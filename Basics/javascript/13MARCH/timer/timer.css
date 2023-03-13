@@ -1,0 +1,178 @@
+body{
+    background: #34495e;
+  }
+  div{
+    text-align:center;
+   }
+  
+  div>dot{
+    -webkit-animation: fade 2s infinite, zoom  2s infinite;
+     -o-animation: fade 2s infinite, zoom  2s infinite;
+     -moz-animation: fade 2s infinite, zoom  2s infinite;
+     animation: fade 2s infinite, zoom  2s infinite;
+    
+    
+  }
+  div:active>dot{
+    -webkit-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -animation-play-state:paused;
+  }
+  div>dot:nth-of-type(1){
+    
+  }
+  div>dot:nth-of-type(2){
+    -webkit-animation-delay: 0.25s;
+     -o-animation-delay: 0.25s;
+     -moz-animation-delay: 0.25s;
+     -animation-delay: 0.25s;
+  }
+  div>dot:nth-of-type(3){
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    -animation-delay: 0.5s;
+  }
+  
+  div{
+    font-size:5em;
+    font-face:symbol;
+    display:block;
+  }
+  @-webkit-keyframes fade{
+    0%{
+     opacity:1;
+    }
+    50%{
+     opacity:0;
+    }
+    100%{
+     opacity:1;
+    }
+  }
+  @-moz-keyframes fade{
+    0%{
+     opacity:1;
+    }
+    50%{
+     opacity:0;
+    }
+    100%{
+     opacity:1;
+    }
+  }
+  @-o-keyframes fade{
+    0%{
+     opacity:1;
+    }
+    50%{
+     opacity:0;
+    }
+    100%{
+     opacity:1;
+    }
+  }
+  @-keyframes fade{
+    0%{
+     opacity:1;
+    }
+    50%{
+     opacity:0;
+    }
+    100%{
+     opacity:1;
+    }
+  }
+  @-webkit-keyframes zoom{
+    0%{
+    }
+    50%{
+     font-size:0.5em;
+    }
+    100%{
+    }
+  }
+  @-o-keyframes zoom{
+    0%{
+    }
+    50%{
+     font-size:0.5em;
+    }
+    100%{
+    }
+  }
+  @-moz-keyframes zoom{
+    0%{
+    }
+    50%{
+     font-size:0.5em;
+    }
+    100%{
+    }
+  }
+  @-keyframes zoom{
+    0%{
+    }
+    50%{
+     font-size:0.5em;
+    }
+    100%{
+    }
+  }
+  
+  
+  #countdown{
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px 10px;
+    color: #1abc9c;
+  }
+  #wait{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: #1abc9c;
+   }
+  #bday{
+    color: #1abc9c;
+    font-family: 'Lobster', cursive;
+  }
+  #bash{
+    color: #e74c3c;
+    -webkit-animation: bash 0.4s infinite;
+    -moz-animation: bash 0.4s infinite;
+    -o-animation: bash 0.4s infinite;
+    -animation: bash 0.4s infinite;
+    
+  }
+  @-webkit-keyframes bash{
+      30% {transform: rotate(-5deg);
+          animation-timing-function: ease-in;
+          }
+      70% {transform: rotate(5deg);
+           animation-timing-function: ease-out;
+          }
+    @-moz-keyframes bash{
+      30% {transform: rotate(-5deg);
+          animation-timing-function: ease-in;
+          }
+      70% {transform: rotate(5deg);
+           animation-timing-function: ease-out;
+          }
+      @-o-keyframes bash{
+      30% {transform: rotate(-5deg);
+          animation-timing-function: ease-in;
+          }
+      70% {transform: rotate(5deg);
+           animation-timing-function: ease-out;
+          }
+    @-keyframes bash{
+      30% {transform: rotate(-5deg);
+          animation-timing-function: ease-in;
+          }
+      70% {transform: rotate(5deg);
+           animation-timing-function: ease-out;
+          }
+    color: #1abc9c;
+  color: #e74c3c;
+  }
