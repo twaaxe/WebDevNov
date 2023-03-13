@@ -1,0 +1,9 @@
+.carousel-item > img{
+    height: 50vh;
+    object-fit: cover;
+    object-position: 70% 80%;
+}
+#logoImg{
+    width: 5%;
+    
+}

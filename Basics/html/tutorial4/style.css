@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    height: 50px;
+    background : linear-gradient(to right top, rgb(103, 103, 104), rgb(237, 235, 238));
+    
+}
+
+li{
+    border-radius: 40%;
+    padding: 20px;
+    
+}
+
+li:hover{ 
+   color : white;
+   background-color: rgb(92, 43, 226);
+   animation : theHover 1s ease;
+}
+
+@keyframes theHover{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

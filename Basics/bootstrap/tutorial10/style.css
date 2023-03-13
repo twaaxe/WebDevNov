@@ -1,0 +1,27 @@
+ body{
+  font-family: "Ubuntu" !important;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+img{
+    width: 100%;
+
+    
+}
+
+.laptopImg{
+    display: flex;
+    max-height: 500px;
+    background: rgb(156, 156, 156);
+}
+
+.previousPrice{
+    position: relative;
+    left : 5%;
+    bottom:  20px;
+    font-size: smaller;
+    
+}

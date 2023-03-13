@@ -1,0 +1,194 @@
+html{
+    background: wheat;
+}
+
+header{
+    text-align: center;
+    border: 4px solid black;
+    box-shadow: 10px 10px 5px black;
+    font-family: 'Rubik Glitch';
+    background: url("https://www.strivezen.com/wp-content/uploads/2020/05/monthly-wall-calendar-1.png") no-repeat center  ;
+    background-size: 100%;
+}
+
+nav{
+    text-align: center;
+    border : 1px solid rgb(9, 106, 180);
+    outline-color: rgb(1, 119, 119);
+    outline-style: outset;
+    background-color: #4a4aa3a0;
+    width: 100%;
+    margin: 30px auto;
+    box-shadow: 10px 10px 5px lightblue;
+    font-family: 'Syne Mono';
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 1%;
+    padding: 20px;
+}
+
+li:hover{
+    background: rgb(55, 55, 54) ;
+    animation: theHover 1s ease ;
+    color: white; 
+}
+
+@keyframes theHover {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+h3{
+    text-align: center;
+}
+
+
+.firstdiv p {
+    width: 90%;
+    margin: 20px auto;
+    transition : all 0.7s ease-in 0s;
+}
+
+.firstPosition {
+    width: 30%;
+    height: auto;
+    background: linear-gradient(0deg, #2629b7 0%, #dca100 100%);
+    font-family: 'Rubik Glitch';
+    padding: 100px;
+    text-align: center;
+    margin: 20px auto;
+    transition : all 0.7s ease-in 0s;
+    border-radius: 70%;
+
+}
+
+.firstPosition:hover{
+    color: rgb(174, 29, 29);
+    width: 40%;
+}
+
+ main > div {
+    margin-bottom: 2%;
+    padding: 20px;
+    box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.firstdiv p:hover{
+    color :rgb(146, 107, 1);
+    font-size: larger;
+    text-align: center;
+    
+}
+
+form p{
+    text-align: center;
+}
+
+.secondDiv{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    bottom: -1;
+    right: 10px;
+    
+}
+
+#content{
+    font-family: 'Syne Mono';
+    font-size: xx-large;
+}
+
+.icon {
+    color: rgb(126, 3, 3);
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+/*------------------------------------------------------------*/
+
+#home {
+    
+}
+.container > div {
+    background: rgb(245, 183, 67);
+    border : 1px solid black;
+    margin: 0 10px;
+    
+}
+
+#nestedContainer1{
+    width: 47%;
+    
+}
+
+#nestedContainer1 h2{
+    text-align: center;
+}
+
+#nestedContainer2{
+    position: absolute;
+    right : 0;
+    bottom: 47%;
+    width: 47%;
+}
+
+#nestedContainer2 > p > bold {
+    text-align: center;
+    margin: 0 50%;
+}
+
+#nestedContainer3{
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#recipe{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: -3px;
+    margin: 0;
+    padding: 0;
+}
+
+#link{
+    margin:  30px 20px;
+}
+
+main {
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

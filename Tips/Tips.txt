@@ -1,0 +1,78 @@
+position absolute fixed sticky ...
+	LEARN FLEXBOX
+https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+container---> display flex / justify content
+flexboxfroggy.com  game learn contenair
+flexboxdefense 	"			"
+ 
+hackerspace bxl
+https://hsbxl.be/
+
+CSS GRADIENT ANIMATION
+https://codepen.io/P1N2O/pen/pyBNzX
+
+SITE:
+flexbox defense
+flexbox plate
+favicon generator
+css shadow-box generator
+
+ https://chatgpt.netlify.app/
+https://chat.openai.com/
+
+CSS Custom Bootstrap
+getbootstrap.com/docs/5.2/layout/grid
+
+
+Github command line
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+html template example
+https://html5up.net/forty
+
+
+landing page template
+start at 9h30
+pause at 12
+star again at 13h30
+finish at 14h25
+details until 15h40
+
+
+hackerspace bxl
+https://hsbxl.be/
+
+odoo.com
+
+
+
+JAVACRIPT TUTORIAL
+https://www.youtube.com/watch?v=Qx0zSF6y70Y
+catagho - baalbek - petr
+
+
+https://threejs.org/
+
+
+https://playminigames.net/game/half-life-uplink
+
+https://codepen.io/collection/ExvrPQ
+
+data generator;
+https://www.mockaroo.com/
+
+
+https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html
+
+TUTORIAL - LESSON
+edx.ord
+
+forum pswd:
+la lune attire la mer
+
+http://collectifsecretdefense.fr/
+
+https://www.thomassankara.net/category/francais/actualites/justice-pour-sankara/
+
+https://www.npmjs.com/package/json-server

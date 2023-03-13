@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our 1ST formulair</title>
+</head>
+<body>
+        <!-- 
+            Main attribute
+            action : what to do when the form is submitted(where it will be submitted) -> answer.php or 
+            target : _blank / _self _parent / frameName : send the answers to :him self or anoter page
+            methode : chose between crypted or uncrypted data to send
+        -->
+    <form action="/post.php method="POST" target="_blank">
+        <input type="text" maxlength="7" placeholder="Enter your username"/>
+        <br>
+        <input type="password" placeholder="Enter your password"/>
+        <br>
+        <input type="checkbox"/>
+        <label>Remember me</label>
+        <br>
+        <label> <input type="radio" name ="premierChoix"> bouton radio 1 </label>
+        <label> <input type="radio" name ="premierChoix"> bouton radio 2 </label>
+        <br>
+        <select>
+            <option>Option1</option>
+            <option>Option2</option>
+            <option>Option3</option>
+            <option>Option4</option>
+        </select>
+        <br>
+        <textarea rows="7" cols="50"></textarea>
+        <input type="text" value="This is an info" readonly disabled>
+        <input type="button" value="Send it">
+        <button type="submit"> Submit</button>
+
+
+    </form>
+</body>
+</html>

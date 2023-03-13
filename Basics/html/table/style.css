@@ -1,0 +1,107 @@
+body {
+    background-color: aliceblue;
+}
+
+.needShadow{
+    box-shadow: 15px 10px 30px grey;
+}
+
+table {
+    background-color: rgb(29, 121, 201);
+    margin: 50px auto ;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(0.75turn, rgba(47, 0, 255, 0.103),rgba(52, 2, 189, 0.418), rgba(32, 1, 117, 0.534));
+    animation: movinGradient 9s ease infinite;
+    background-size:200% 400%;
+}
+
+th{
+    text-align: center;
+    padding: 15px;
+    color: rgb(39, 10, 119) ;    
+}
+
+td {
+    color : rgb(91, 48, 211);
+    padding : 10px 90px ;  
+    border: 2px solid rgb(63, 5, 117);
+
+}
+
+tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.192);
+
+}
+
+td{text-align: center;}
+
+ul{
+    text-align: center;
+    border : 1px dashed rgb(26, 79, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+}
+li{
+
+    border-radius: 50%;
+    list-style: none;
+    margin: 5px 30px;
+    padding : 15px;
+    
+
+}
+
+li:hover {
+    background: rgb(94, 6, 134) ;
+    animation: theHover 1s ease ;
+    color: white;    
+}
+
+.azerty{
+    background: linear-gradient(to right, blue, red, blue);
+    background-size:200% 400%;
+    animation: animOne 3s ease-in-out infinite;
+}
+
+@keyframes theHover {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes movinGradient {
+    0%{
+        background-position: 0% 25%;
+    }
+    30%{
+        background-position: 25% 50%;
+    }
+    66%{ background-position: 50% 75%;
+    }
+    90%{
+        background-position: 75% 100%;
+    }
+}
+
+@keyframes animOne{
+    0% {
+        background-position: 0% 25%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+    
+}
+
+

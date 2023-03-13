@@ -1,0 +1,289 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.app {
+    width: 280px;
+    border: 1px solid #8398bd;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #12368d;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.app label, .app select {
+    margin: auto;
+    display: block;
+}
+.app input {
+    border: 1px solid #8398bd;
+}
+.app__icon__expand {
+    border-radius: 50%;
+    background: white linear-gradient(200deg, white 25%, #b1c9e2 75%, #9db2d7);
+    border: 1px solid #8398bd;
+    display: inline-block;
+    transform: rotate(-90deg);
+    padding: 1px;
+    font-family: monospace;
+    font-size: 9px;
+    font-weight: bolder;
+    position: relative;
+    top: 0;
+}
+.app__frame {
+    padding: 5px;
+    background: white linear-gradient(to bottom, white, #eef2f6, #dfe7ef, #cadaeb, #dfe7ef, #eef2f6, white);
+    text-align: center;
+    position: relative;
+}
+.app__frame--bg {
+    width: 150px;
+    position: absolute;
+    bottom: 1em;
+    right: 0.25em;
+    opacity: 0.15;
+    z-index: 1;
+}
+.app__title {
+    margin-bottom: 2em;
+    text-align: left;
+    font-weight: bolder;
+    background: white linear-gradient(to bottom, #c0d4e9, #ecf0f4, #f8f8f8);
+    padding: 0 3px 0 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.app__title--logo {
+    width: 36px;
+    height: auto;
+    position: relative;
+    top: 3px;
+}
+.app__profile--image {
+    width: 98px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0.75em;
+    border-radius: 10px;
+}
+.app__login-inner {
+    text-align: left;
+    padding: 0 4em;
+    margin: auto;
+}
+.app__login-inner--select {
+    margin-bottom: 1.5em;
+}
+.app__login-inner--select select, .app__login-inner--select label {
+    vertical-align: bottom;
+    display: inline-block;
+}
+.app__login-inner--checkbox label {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.app__login-inner--checkbox input[type="checkbox"] {
+    -webkit-appearance: none;
+    background: white linear-gradient(125deg, #dbdbdb, white 75%);
+    padding: 6px;
+    border: 1px solid #8398bd;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+.app__login-inner--checkbox input[type="checkbox"]:checked {
+    background-color: #e9ecee;
+    border: 1px solid #8398bd;
+    color: #333;
+}
+.app__login-inner--checkbox input[type="checkbox"]:checked:after {
+    content: '\2714';
+    font-size: 10px;
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    font-weight: bolder;
+    color: #43ae43;
+}
+.app__login-button {
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    display: block;
+    padding: 0.25em 1.5em;
+    border: 1px solid #064381;
+    color: #064381;
+    border-radius: 3px;
+    box-shadow: inset -1px -2px 0 0 orange, inset 1px 1px 0 0 orange, -2px -1px 3px 0 rgba(0, 0, 0, 0.35);
+    font-weight: bold;
+    font-family: "MS Reference Sans Serif", "Arial";
+    font-size: 11px;
+    line-height: 1.5;
+    background: white linear-gradient(to bottom, white, #d9e1fa);
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+.app__login--email {
+    padding: 3px 5px;
+    margin-bottom: 1em;
+}
+.app__login--pass {
+    padding: 3px 5px;
+    margin-bottom: 1em;
+}
+.app__login--pass:active {
+    background: transparent;
+}
+.app__login--status {
+    border: 1px solid transparent;
+    background: none;
+    color: #12368d;
+    font-size: inherit;
+    font-family: inherit;
+}
+.app__login--status:focus {
+    outline: none;
+    background: white;
+    border: 1px solid #8398bd;
+    border-radius: 2px;
+    box-shadow: -1px -2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.app__login label {
+    line-height: 1.5;
+}
+.app__login-link {
+    display: block;
+    line-height: 1.75;
+    color: #0002fd;
+}
+.app__login-link--container {
+    position: relative;
+    z-index: 2;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+}
+.app__login-link--service-status {
+    display: inline-block;
+    text-decoration: none;
+}
+.app__login-link--new-account {
+    display: inline-block;
+    float: right;
+    clear: both;
+}
+.app__footer {
+    margin-top: 4em;
+    text-align: left;
+}
+.app__footer--credits {
+    margin: 0;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+.app__input--text {
+    width: 100%;
+    margin-bottom: 0.75em;
+}
+.app__notification {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    right: 18px;
+    width: 180px;
+    padding: 1px;
+    background: white;
+    border: 1px solid #a6b4cf;
+    border-right-color: #455690;
+    border-bottom-color: #455690;
+    box-shadow: inset 1px 1px 0 0 white, inset -1px -1px 0 0 #cfdef4;
+    color: #12368d;
+    font-family: sans-serif;
+    font-size: 11px;
+    animation: notification-pop-up 0.5s ease-in forwards;
+}
+.app__notification__close {
+    cursor: pointer;
+    background: #e6440d linear-gradient(160deg, rgba(255, 255, 255, 0.5), #e6440d);
+    color: white;
+    position: absolute;
+    right: 0;
+    font-weight: bolder;
+    font-size: 9px;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-bottom-color: #c23d1b;
+    border-right-color: #c64423;
+    border-left-color: #e35f3e;
+    border-top-color: #e66d50;
+    margin: 3px 4px;
+    padding: 2px 3px;
+    font-family: monospace;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.app__notification__title {
+    color: #12368d;
+    line-height: 2;
+    padding-left: 4px;
+    padding-right: 4px;
+    background: white linear-gradient(to bottom, #cfd7ec, white 40%, #cadaf3 90%);
+}
+.app__notification__title--icon {
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 2px;
+}
+.app__notification__inner {
+    border: 1px solid #728eb8;
+    border-bottom-color: #b9c9ef;
+    border-right-color: #b9c9ef;
+    background: white linear-gradient(to bottom, #cfddf4, white 17%, #d5e1f5, #ebf0fa);
+}
+.app__notification__inner--logo {
+    margin-right: 3px;
+    text-align: right;
+}
+.app__notification__inner--logo img {
+    width: 41px;
+    height: auto;
+}
+.app__notification__local-menu {
+    text-align: right;
+    padding: 2px 3px;
+}
+.app__notification__user {
+    padding: 0 8px;
+    margin-bottom: 5px;
+}
+.app__notification__user--photo {
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    margin-right: 6px;
+    border-radius: 10px;
+    border: 1px solid #4e6ba0;
+}
+.app__notification__user--details {
+    position: relative;
+    top: -15px;
+    display: inline-block;
+}
+@keyframes notification-pop-up {
+    0% {
+        height: 0;
+        opacity: 0;
+        transform: translateY(100%);
+   }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+   }
+}

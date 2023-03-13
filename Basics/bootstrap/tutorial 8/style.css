@@ -1,0 +1,66 @@
+.container{
+    margin: 150px auto;
+}
+
+.bg-gris{
+    background: rgb(202, 201, 201) !important;
+}
+
+.cardImg{
+        width: 30%;
+        padding: 0px 0px 5px 0px ;       
+}
+
+
+#nameCard1{
+    float: right;
+    position: relative;
+    top: 25%;
+    left : 90%;
+}
+
+#nameCard2{
+
+    float: right;
+    position: relative;
+    top: 70%;
+    left : 93%;
+}
+
+#nameCard3{
+
+    float: right;
+    position: relative;
+    top: 25%;
+    left : 90%;
+}
+
+
+
+.cardInfo{
+    font-size: small;
+    margin-bottom: 0px;
+    margin: 4px auto;
+    
+}
+
+.row{
+    width: 100%;
+
+}
+
+.cardTemp , #formPayement{
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.25);
+
+    
+}
+ #cvvCode{
+    position: absolute;
+    bottom: 38.5%;
+    right: 26%;
+    color: rgb(126, 132, 136);
+    background-color: rgb(255, 255, 255);
+    font-size: 0.8em;
+
+ }
+ 

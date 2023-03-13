@@ -1,0 +1,70 @@
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.row > .col-md-6 > ul > li, .row > .col-md-12 > ul > li {
+    display: inline;
+    list-style-type: none;
+}
+
+.row > .col-md-6 > ul > li {
+    margin: 0 10px;
+}
+
+.col-md-12 > ul > li{
+    margin: 0 5px;
+}
+#logoEbay{
+    width: 30%;
+    height:  35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+    
+}
+
+.article{
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.article:hover{
+    border: 1px solid black;
+}
+
+a > p:hover{
+    text-decoration: underline;
+}
+#cadeau{
+    height: 10vh;
+    object-fit: contain;
+}
+
+#wallpaper{
+    background: url("https://schouwburgamstelveen.nl/media/p4jlls2k/cadeaukaart-als-afbeelding.jpg?anchor=center&mode=crop&width=1920&height=675&rnd=133144547974270000");
+    background-position: 75% 5%;
+}
+
+.petitText{
+    color: rgb(161, 161, 161);
+    font-size:x-small;
+}
+
+.link{
+    color: rgb(85, 111, 255);
+    text-decoration: underline;
+}
+
+.logo{
+    margin: 0 10px;
+}
+
+.buynow:hover{
+    background: white !important;
+    color: red !important;
+}

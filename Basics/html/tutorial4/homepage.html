@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>1st Homepage</title>
+</head>
+ <ul>
+        <li>Home</li>
+        <li>About me</li>
+        <li>Contact</li>
+    </ul>
+    <video controls  autoplay>
+        <source src="http://incident.net/v8/files/mp4/4.mp4" type="video/mp4">
+    </video>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/07FdDRbdurg" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.3294613585244!2d4.426012215933899!3d50.84358306684018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db5f16db38b9%3A0xa21b7338eaf927bd!2zUG9zw6lpZG9u!5e0!3m2!1sen!2sbe!4v1669630683265!5m2!1sen!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- 
+            Main attribute
+            action : what to do when the form is submitted(where it will be submitted) -> answer.php or 
+            target : _blank / _self _parent / frameName : send the answers to :him self or anoter page
+            methode : chose between crypted or uncrypted data to send
+        -->
+    
+        <form action="post.php" method="POST" target="_blank">
+            <input type="text" maxlength="7" placeholder="Enter your username"/>
+            <br>
+            <input type="password" placeholder="Enter your password"/>
+            <br>
+            <input type="checkbox"/>
+            <label>Remember me</label>
+            <br>
+            <label> <input type="radio" name ="premierChoix"> bouton radio 1 </label>
+            <label> <input type="radio" name ="premierChoix"> bouton radio 2 </label>
+            <br>
+            <select>
+                <option>Option1</option>
+                <option>Option2</option>
+                <option>Option3</option>
+                <option>Option4</option>
+            </select>
+            <br>
+            <textarea rows="7" cols="50"></textarea>
+            <input type="text" value="This is an info" readonly disabled>
+            <input type="button" value="Send it">
+            <button type="submit"> Submit</button>
+        </form>
+</body>
+</html>

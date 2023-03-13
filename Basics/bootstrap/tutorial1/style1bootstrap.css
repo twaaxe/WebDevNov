@@ -1,0 +1,30 @@
+:root{
+    --mavariable : #6e0b10;
+}
+
+.cssvariable{
+    background-color: var(--mavariable);
+}
+
+body{background: wheat;}
+
+
+
+
+
+
+.bg-lavender{
+    background-color: #b2a4d4;
+}
+
+.bg-wheat{
+    background-color: wheat;
+}
+
+.bg-magenta{
+    background-color: magenta;
+}
+
+.bg-bluee{
+    background-color: rgb(159, 159, 226);
+}

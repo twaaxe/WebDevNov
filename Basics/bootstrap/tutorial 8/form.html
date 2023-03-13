@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+    
+            <!-- Bootsrap CSS-->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+            <!-- Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+        <title>Document</title>
+    </head>
+<body>
+    <div class="container">
+
+        <div class="row d-flex justify-content-between   ">
+            <div class="col-md-4 cardTemp">
+
+                
+                    <div class="col-md-6 ">
+                        <img  class=" cardImg mt-2" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F04%2FVisa-Logo.png&f=1&nofb=1&ipt=8235c0fc826769479dd14bd72dad67aeeb4831e2199841ecff9d72ed088cfca3&ipo=images" alt="card">
+                        
+                        <p class="cardNumber mt-3  cardInfo"><strong>**** **** **** 1060</strong></p>
+                        <P class="expiryDate  cardInfo "><strong>Expiry date:</strong>10/16</P>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p id="nameCard1" class="cardInfo"><strong>Name:</strong>Kumar</p>
+                    </div>
+               
+ 
+            </div>
+
+            <div class="col-md-4 cardTemp">
+            
+                <div class="col-md-6 ">
+                    <img  class=" cardImg mt-2" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F03%2FMastercard_Logo_1990-2048x1223.png&f=1&nofb=1&ipt=e26ddeaa8a66e915b2ef84a570d91292d0bcca8cb4556e2ed2c34ac75e092e11&ipo=images" alt="card">
+                    <p class="cardNumber   cardInfo"><strong>**** **** **** 1060</strong></p>
+                    <P class="expiryDate cardInfo "><strong>Expiry date:</strong>10/16</P>
+                </div>
+
+                <div class="col-md-6">
+                    <p class=" cardInfo " id="nameCard2"><strong>Name:</strong>Kumar</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 cardTemp">
+                
+                <div class="col-md-6 ">
+                    <img  class=" cardImg mt-2" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.imgbin.com%2F0%2F21%2F8%2Fimgbin-discover-card-discover-financial-services-credit-card-bank-finance-credit-card-gDJAHEVhTzkwJ0SrQTUEpfqP8.jpg&f=1&nofb=1&ipt=737c6f185aa613faf28d84ad6a27ac5a08d6c71abcc257150a744eaa056c1e82&ipo=images" alt="card">
+                    
+                    <p class="cardNumber mt-3  cardInfo"><strong>**** **** **** 1060</strong></p>
+                    <P class="expiryDate mb-3  cardInfo "><strong>Expiry date:</strong>10/16</P>
+                </div>
+
+                <div class="col-md-6">
+                    <p class=" cardInfo " id="nameCard3"><strong>Name:</strong>Kumar</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row mt-5 w-100 px-2 ²"  id="formPayement">
+
+                    <h3>Payement method</h3>
+                    <hr>
+                    <div class="row my-2 "><h4 class="bg-gris rounded">Paypal</h4></div>
+                    <div class="row my-2"><h4 class="bg-gris rounded">Credit card</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="fw-bold">Summary</h5>
+                        <h6 class="fw-bold">Product:<span class="text-success"> Name of product</span></h6>
+                        <p class="fw-bold">Price:<span class="text-success"> $492.90</span></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            recusandae autem at deserunt totam consequatur dolore explicabo magni fugit fuga est ratione,
+                            neque, quasi ducimus delectus voluptatum reiciendis voluptatibus et.
+                        </p>
+                    </div>
+
+            <div class="col-md-6 my-3">
+
+                <form action="" target="" method="" class="">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="cardNumber"  placeholder="CARD NUMBER">
+                </div>
+
+                
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="carDate" aria-describedby="emailHelp" placeholder="MM / YY">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <span id="cvvCode">CVV CODE</span>
+                                <input type="password" class="form-control" id="CVV/CODE"  >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3">
+                            
+                            <input type="text" class="form-control" id="nameCard" placeholder="NAME ON THE CARD">
+                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <button type="button" class="btn bg-gris">Submit</button>
+                    </div>
+                </form>
+            </div>
+                
+        </div>
+
+     
+
+        <div class="row my-3 ">
+            <button type="button" value="" class="btn btn-primary rounded-0">Make payement</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
