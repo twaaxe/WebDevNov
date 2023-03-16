@@ -3,6 +3,8 @@ const addTodoInput = document.querySelector(".btn-danger")
 const listGroup = document.querySelector("ul.list-group")
 const deleteAllButton = document.querySelector("#clear-todos")
 
+//--------------------------------------------------------------------------------------------------------------------------
+
 //click event
 addTodoInput.addEventListener('click', function (e) {
     e.preventDefault()
@@ -27,6 +29,8 @@ addTodoInput.addEventListener('click', function (e) {
 
 })
 
+
+
 function addTodo(input) {
 
     const newTodo = todoInput.value;
@@ -40,6 +44,10 @@ function addTodo(input) {
     listGroup.appendChild(single_todoParsed)
 }
 
+
+//--------------------------------------------------------------------------------------------------------------------------
+
+
 //work perfect
 function deleteList(){
     const theList = listGroup.children;
@@ -48,7 +56,6 @@ function deleteList(){
         todo.remove()
     })
 }
-
 
 //work perfect
 function deleteLastItem(){
@@ -62,7 +69,9 @@ function deleteLastItem(){
 
     //DOES NOT WORK
 function deletOnyByOne(){
-    setInterval(deleteLastItem(),1000)
+    while(listGroup.children.length !=0){
+    setInterval(deleteLastItem(),2000)
+    }
 }
 
 deleteAllButton.addEventListener('click', function () {
@@ -76,6 +85,7 @@ deleteAllButton.addEventListener('click', function () {
 
 })
 
+//--------------------------------------------------------------------------------------------------------------------------
 
 //input event (change)
 todoInput.addEventListener('change', function () {
@@ -93,15 +103,19 @@ todoInput.addEventListener('keydown', function (e) {
 })
 
 
-/*
 
-<li class="list-group-item d-flex justify-content-between">
-                            ${newTodo}
-                            <a href = "#" class ="delete-item">
-                                <i class = "fa fa-remove"></i>
-                            </a>
-                        </li>
+//dbclivk
+addTodoInput.addEventListener('dblclick', (e) =>{
+    console.log("you just clicked x2!")
+    e.preventDefault()
+})
 
-*/
+
+
+//when use enter the page
+document.addEventListener('DOMContentLoaded', ()=>{
+    alert("duydsy")
+})
+
 
 
