@@ -1,3 +1,4 @@
+//async way but without async funtion    
     fetch('http://localhost:3000/database')
     .then(res=> {
         if( res.ok ){
