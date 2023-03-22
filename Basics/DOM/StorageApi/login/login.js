@@ -3,6 +3,7 @@ const [username, password] = document.querySelectorAll('input')
 const [login] = document.querySelectorAll('a')
 
 const loading = document.querySelector('.loading')
+
 login.addEventListener('click', (e)=>{
 
     //we create an object that will be sent to the database, for now database = LocalStorage
@@ -10,10 +11,13 @@ login.addEventListener('click', (e)=>{
         username:username.value,
         password:password.value
     }
+
+    // { "username":"axel","password":"pswd" }
+
     console.log(userObj)
     
   //user data from db
-    const userDb = JSON.parse(sessionStorage.getItem('user2'))
+    const userDb = JSON.parse(sessionStorage.getItem('key2'))//user 2 ou key ou key2 selon la machine
     
     loading.innerText="Logging in ... please wait"
 
@@ -31,7 +35,7 @@ login.addEventListener('click', (e)=>{
             loading.classList.add('text-danger')
             alert('combinaison incorrect')
             loading.innerText="User is not logged in"
-            setTimeout()
+            // setTimeout()
         }
     }, 500)
 

@@ -86,9 +86,40 @@ const fetchSingleProduct = async (id) => {
 // 8. Create a function to add products to the cart (innerHTML allowed)
 const addToCart = (product) => {
   
+    const addToCart = (product) => {
+        // {title:'product1'}
+    /*
+    <tr>
+                                  <td>Product 1</td>
+                                  <td>$20.00</td>
+                                </tr>
+    */
+    let tr = document.createElement('tr')
+    let td_productTitle = document.createElement('td')
+    let td_productPrice = document.createElement('td')
+    td_productTitle.appendChild(document.createTextNode(product.title))
+    td_productPrice.appendChild(document.createTextNode(product.price))
+    tr.appendChild(td_productTitle)
+    tr.appendChild(td_productPrice)
+    
+    CartSummary.appendChild(tr)
+    
+    };
+    
 };
 
 // 9. Create click event listener to add products to the cart
-ListOfProducts.addEventListener("click", async(e) => {
+ListOfProducts.addEventListener("click", async (e) => {
+    console.log(e.target.classList.contains('buynow'))
 
+    if(e.target.classList.contains('buynow')){
+        let productId = e.target.getAttribute('data-id')
+        console.log('hello world',productId)
+        let single_product = await fetchSingleProduct(productId)
+        console.log(single_product)
+        Total+=single_product.price
+        addToCart(single_product)
+        TotalPrice.innerText = `EUR ${Total}`
+        console.log(Total)
+    }
 });

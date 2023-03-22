@@ -22,6 +22,8 @@ save.addEventListener('click',(e)=>{
     localStorage.setItem(keyInput.value, JSON.stringify(obj))
 })
 
+
+
 //getItem
 _get.addEventListener('click', (e)=>{
 
@@ -33,6 +35,8 @@ _get.addEventListener('click', (e)=>{
     output.innerText = StorageData
 })
 
+
+
 del.addEventListener('click', (e)=>{
 
     const keyName = keyInput.value
@@ -40,7 +44,18 @@ del.addEventListener('click', (e)=>{
     localStorage.removeItem(keyName)
 })
 
+/*
 
+for (let x = 0; x < localStorage.length; x++) {
+    //   console.log(x)
+    let keyname = localStorage.key(x)
+    // console.log(keyname)
+    let value = localStorage.getItem(keyname)
+    // console.log(`key:${keyname}\nvalue:${value}`)
+}
+
+
+*/
 
 update.addEventListener('click', ()=>{
     const keyname = keyInput.value
@@ -48,22 +63,29 @@ update.addEventListener('click', ()=>{
 
     const oldData = localStorage.getItem(keyname)
     console.log(oldData)
-    const userObj = JSON.parse(oldData)
+
+    const userObj = JSON.parse(oldData) //temp
     console.log(userObj.username)
-    userObj.username = newData
+    userObj.username = newData // data updated 
     console.log(userObj)
 
+
+        // set storage key name with new object
     localStorage.setItem(keyname, JSON.stringify(userObj))
 
     console.log(JSON.parse(oldData))
 
 
-
-
 })
 
 
-
+/*
+step1: getobject data
+step2: convert string object data to real object (json.parse())
+step3: update object with new value
+step4: convert updatedobject to string again (json.stringify())
+step5: overwrite the data now
+*/
 
 
 
