@@ -6,36 +6,40 @@ const loading = document.querySelector('.loading')
 
 login.addEventListener('click', (e)=>{
 
-    //we create an object that will be sent to the database, for now database = LocalStorage
+    
     const userObj = {
         username:username.value,
         password:password.value
     }
-
     // { "username":"axel","password":"pswd" }
+  //  console.log(userObj)
+    
 
-    console.log(userObj)
+    const userDb = JSON.parse(sessionStorage.getItem('user'))
+    /*user ou key ou key2 selon la machine. NB; dans SessionStoage, un objet appellé User 
+    qui reprend les info de connexion de TOUT LES USERS. on verifie si l'entree de l'utilisateur correspond a une entrée de l objet user (iteration)*/
     
-  //user data from db
-    const userDb = JSON.parse(sessionStorage.getItem('key2'))//user 2 ou key ou key2 selon la machine
-    
+
+    let isUserFound = userDb.find(user=>user.username === userObj.username && user.password === userObj.password)
+
+   // console.log(isUserFound)            //renvoie l'user sous forme dbjet JSON ( verifié)
     loading.innerText="Logging in ... please wait"
 
     setTimeout(()=>{
 
-        if(userObj.username == userDb.username && userObj.password == userDb.password){
+        if(isUserFound){
             loading.innerText="Welcome"
             loading.classList.remove('text-light')
             loading.classList.remove('text-danger')
             loading.classList.add('text-success')
-            alert('welcome user '+ userDb.username)
+            alert('welcome user '+ isUserFound.username)
         } else {
             loading.classList.remove('text-light')
             loading.classList.remove('text-success')
             loading.classList.add('text-danger')
-            alert('combinaison incorrect')
             loading.innerText="User is not logged in"
-            // setTimeout()
+            alert('combinaison incorrect')
+            
         }
     }, 500)
 
