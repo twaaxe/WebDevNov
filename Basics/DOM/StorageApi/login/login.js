@@ -11,9 +11,6 @@ login.addEventListener('click', (e)=>{
         username:username.value,
         password:password.value
     }
-    // { "username":"axel","password":"pswd" }
-  //  console.log(userObj)
-    
 
     const userDb = JSON.parse(sessionStorage.getItem('user'))
     /*user ou key ou key2 selon la machine. NB; dans SessionStoage, un objet appellé User 

@@ -13,9 +13,6 @@ RegisterBtn.addEventListener('click',()=>{
     }
     let tempUsers = getSessionStorageUser();//arrayList
     //tempUsers = []
-    console.log("NewUser: ", NewUser)
-    console.log("TempUsers: ", tempUsers)
-    console.log("TempUsers: ", tempUsers)
     
     if(username.value !=='' && password.value !==''){
         tempUsers.push(NewUser)
