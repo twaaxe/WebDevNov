@@ -81,4 +81,7 @@ https://www.npmjs.com/package/json-server
 
 
 
+JSON DATABASE to test API
+http://jsonplaceholder.typicode.com/
+
 graphic interfaces with SOURCETREE
