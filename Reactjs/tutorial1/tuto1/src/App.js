@@ -39,6 +39,6 @@ export default App
 
 
 const handleInput = (e) => {
-  console.log(e.key) // afche lettre pat lettre
+  console.log(e.key) // affiche lettre pat lettre
   console.log(e.target.value) // += e.value
 }
