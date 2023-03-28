@@ -47,7 +47,7 @@ function Posts({singlePost}) {
 function App() {
 
   const [state, setState] = useState([])
-  const [username, setUsername] = useState('ugbieef dd')
+  const [username, setUsername] = useState(undefined)
 
   const test = "This is a test"
 
@@ -75,11 +75,6 @@ function App() {
 
     <div>
       <Profile />
-      
-      <h1>
-        {username}
-      </h1>
-      <button onClick={ClickHandler}>Get Posts</button>
 
       {console.log(data)}
 
@@ -88,6 +83,21 @@ function App() {
         <Posts singlePost={post} key={index}/>
         ))
       }
+
+
+      {
+          username?
+          username.map((user, index)=>(
+            <h1 key={index}> {user} </h1>
+          ))
+          :
+          'Loading... ' 
+        }
+        <br/>
+        <br/>
+
+      <button onClick={ClickHandler}>Get Posts</button>
+      
 
     </div>
    
