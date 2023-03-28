@@ -48,7 +48,7 @@ function App() {
 
   const [state, setState] = useState([])
   const [username, setUsername] = useState(undefined)
-
+  const [isClicked, setIsClicked] = useState(false) 
   const test = "This is a test"
 
   const data = [] // array data to store posts
@@ -60,12 +60,17 @@ function App() {
       .then(res => res.json())
 
       .then(posts => {
-
-        // console.log(posts)
-
+        //   console.log(posts)
         // data.push(posts)
-        setState(posts) //data push
-        setUsername('Dummy Data')
+        
+        //  setUsername('Dummy Data')
+        setIsClicked(!isClicked)
+
+        setTimeout(function(){
+          setUsername(['a', 'b', 'c', 'd']) // save-set items 
+          setState(posts) // DATA.PUSH
+          setIsClicked(false)
+        },5000)
 
       })
 
@@ -78,20 +83,39 @@ function App() {
 
       {console.log(data)}
 
-      {
+      {/* {
         state.map((post, index)=>( 
         <Posts singlePost={post} key={index}/>
         ))
-      }
+      } */}
 
 
-      {
+      {/* {
           username?
           username.map((user, index)=>(
             <h1 key={index}> {user} </h1>
           ))
           :
           'Loading... ' 
+        } */}
+
+
+        {
+          isClicked ?
+          'loading...'
+          :
+          username ?
+            username.map((user, index)=>(
+                <h1 key={index}>{user} </h1>
+            ) )
+            : ''
+
+// condition1
+// true
+// 
+// 
+// 
+//           
         }
         <br/>
         <br/>
