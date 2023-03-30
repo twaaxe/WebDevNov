@@ -96,3 +96,30 @@ WHEN NEW REACT PROJECT
 3- include bootstrap css library in index.js
 	import 'bootstrap file'
 
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+WHEN NEW REACT PROJECT
+
+1-NAVBAR
+    import bootstrap and react router
+    create the NAVBAR.
+    export the file
+
+
+2-APP.js
+    import  from react router  
+    import from bootstrap
+    import the NAVBAR
+    import all the pages (will be used in the <Route> elem)
+    NB: <Route> element is not visible by the client
+    NB: ask chat gpt for keyword in " https://github.com/atiilla/WebDevNov2022/blob/main/Reactjs/blog-app/src/App.js " (BrowserRouter, route...)
+
+
+3-
+    import the app.js
+    import bootstrap
+    
+
+
+
