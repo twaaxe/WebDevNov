@@ -18,3 +18,5 @@ root.render(
 
 
 // THIS IS REACT ROUTING NOT ALERT 2, CAN'T RENAME IT
+//we see HEADER and FOOTER because there are used in LAYOUT already
+//fuck
