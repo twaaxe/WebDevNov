@@ -85,3 +85,14 @@ JSON DATABASE to test API
 http://jsonplaceholder.typicode.com/
 
 graphic interfaces with SOURCETREE
+
+react.dev for official doc
+
+
+
+WHEN NEW REACT PROJECT
+1- npm i react-router-dom
+2- npm i react-bootstrap bootstrap
+3- include bootstrap css library in index.js
+	import 'bootstrap file'
+
