@@ -1,33 +1,36 @@
 import { useState } from "react";
-
-function ListGroup() {
-  let cityList = ["New-York", "Paris", "London", "Brussels"];
-
+interface ListGroupProps {
+  lesVilles: string[];
+  heading: string;
+  onSelectCity: (city: string) => void;
+}
+function ListGroup({ lesVilles, heading, onSelectCity }: ListGroupProps) {
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
     <>
-      <h1>List</h1>
+      <h1>{heading}</h1>
 
       {/*fake if statement.
        line17 display No city if cityList is empty
       line18 display the list if citYList is not empty
       */}
-      {cityList.length === 0 && <p>No City </p>}
+      {lesVilles.length === 0 && <p>No City </p>}
       <ul className="list-group">
-        {cityList.map((x, index) => (
+        {lesVilles.map((city, index) => (
           <li
             className={
               selectedIndex == index
                 ? "list-group-item active"
                 : "list-group-item"
             }
-            key={x}
+            key={city}
             onClick={() => {
               setSelectedIndex(index);
+              onSelectCity(city);
             }}
           >
-            {x}
+            {city}
           </li>
         ))}
       </ul>
