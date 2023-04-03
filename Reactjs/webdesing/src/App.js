@@ -24,7 +24,7 @@ function App() {
             </Col>
 
             <Col md={9} className="text-center p-0 " id="mainContent">
-              
+
               <Container>
                 <Row>{/*Project name */}
                   <Row>
