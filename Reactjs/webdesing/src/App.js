@@ -8,13 +8,13 @@ function App() {
 
     <>
       <main>
-        <Row className="row bg-secondary" id="webdesignRow">{/*1st row content = web design*/}
-          <Col md={3} className=" text-end ">
+        <Row className="row bg-secondarya" id="webdesignRow">{/*1st row content = web design*/}
+          <Col md={3} className=" text-end my-2">
             <h1>Web Design</h1>
           </Col>
         </Row>
 
-        <Container fluid className='justify-content-start'>
+        <Container fluid className=''>
 
           <Row>{/*2nd row content = main part*/}
             <Col md={3} className="text-end p-0 m-0" id="thelistGroup">
@@ -28,15 +28,15 @@ function App() {
               <Container>
                 <Row>{/*Project name */}
                   <Row>
-                    <Col md={4} className="text-start ">
+                    <Col md={4} className="text-start my-2 px-4">
                       <h1 >Project name</h1>
                       <a href="google.com" target="_blank">go to website</a>
                     </Col>
-                    <Col md={8} className="text-start py-3 my-auto mx-auto">
+                    <Col md={8} className="text-start py-3 my-2 mx-auto">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eaque officia sunt quasi voluptatum facere nobis illo ipsam blanditiis at quos, ducimus tenetur hic fuga adipisci ipsa soluta? Maiores, enim!</p>
                     </Col>
                     <Row>
-                      <Col md={12}>
+                      <Col md={12} className="my-auto">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9d1pgNo-VKD7PPw2swSqX9R0G7jqB6dA4oQ&usqp=CAU" alt="uneimagePrincpale" id="imgPrincipal" />
                       </Col>
                     </Row>
@@ -44,8 +44,9 @@ function App() {
                 </Row>
 
 
-                <h2 className='text-start'>More screenshot of this Project</h2>
-                <Row className=' justify-content-between'>{/*More screenshot */}
+                <h2 className='text-start my-2 px-4'>More screenshot of this Project</h2>
+
+                <Row className=' my-4 py-2'>{/*More screenshot */}
 
                   {/* <Col md={2} className="text-center">
                     <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
