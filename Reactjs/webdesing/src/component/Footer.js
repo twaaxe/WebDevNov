@@ -1,8 +1,14 @@
-export default function Header(){
+import Container from 'react-bootstrap/Container';
+import {Row,Col} from 'react-bootstrap';
+
+
+
+
+export default function Footer(){
 
     return(
-        <div className="row d-flex text-center">
+        <Row className=" text-center"  id="footer">
             <p>CopyRight</p>
-        </div>
+        </Row>
     )
 }

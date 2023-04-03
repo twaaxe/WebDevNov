@@ -1,0 +1,37 @@
+ul{
+    list-style-type: none;
+    width: auto;
+    
+}
+
+li{
+    border-bottom: 2px solid black;
+}
+
+
+
+#webdesignRow{
+    border: 2px solid black !important;
+    
+}
+
+.headerButton > div{
+    border: 2px solid black;
+    padding: 1%;
+}
+
+
+ #abouKero{
+    position: relative;top: -30px; left: -10px;
+ }
+
+
+img{
+    width: 60%;
+}
+
+imgPrincipal{
+    width: 60% ;
+}
+
+
