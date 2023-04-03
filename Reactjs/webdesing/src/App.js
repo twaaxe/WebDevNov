@@ -1,6 +1,7 @@
 import { Row, Col, Container, ListGroup } from 'react-bootstrap';
 import Card from './component/Card'
 import MyOwnCard from './component/Card';
+import ProjectList from './component/ProjectList';
 
 function App() {
   return (
@@ -17,14 +18,13 @@ function App() {
 
           <Row>{/*2nd row content = main part*/}
             <Col md={3} className="text-end p-0 m-0" id="thelistGroup">
-              <ListGroup variant="flush" className='p-0 m-0  '>
-                <ListGroup.Item>Project 1</ListGroup.Item>
-                <ListGroup.Item>Project 2</ListGroup.Item>
-                <ListGroup.Item>Project 3</ListGroup.Item>
-                <ListGroup.Item>Project 4</ListGroup.Item>
-              </ListGroup>
+
+              <ProjectList />
+
             </Col>
+
             <Col md={9} className="text-center p-0 " id="mainContent">
+              
               <Container>
                 <Row>{/*Project name */}
                   <Row>
@@ -47,19 +47,19 @@ function App() {
                 <h2 className='text-start'>More screenshot of this Project</h2>
                 <Row className=' justify-content-between'>{/*More screenshot */}
 
-                  <Col md={2} className="text-center">
+                  {/* <Col md={2} className="text-center">
+                    <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
+                  </Col> */}
+                  <Col md={3} className="text-center">
                     <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
                   </Col>
-                  <Col md={2} className="text-center">
+                  <Col md={3} className="text-center">
                     <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
                   </Col>
-                  <Col md={2} className="text-center">
+                  <Col md={3} className="text-center">
                     <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
                   </Col>
-                  <Col md={2} className="text-center">
-                    <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
-                  </Col>
-                  <Col md={2} className="text-center">
+                  <Col md={3} className="text-center">
                     <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
                   </Col>
 
