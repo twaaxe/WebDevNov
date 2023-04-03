@@ -1,15 +1,3 @@
-ul{
-    list-style-type: none;
-    width: auto;
-    
-}
-
-li{
-    border-bottom: 2px solid black;
-}
-
-
-
 #webdesignRow{
     border: 2px solid black !important;
     
@@ -20,18 +8,33 @@ li{
     padding: 1%;
 }
 
-
- #abouKero{
-    position: relative;top: -30px; left: -10px;
- }
-
-
-img{
-    width: 60%;
+nav > .container > a {
+    border: 2px solid black;
+    position: relative;
+    top: -15px;
+    left: -65px;
+    padding: 0 1%;
 }
 
-imgPrincipal{
-    width: 60% ;
+
+.nav-link{
+    border: 2px solid black !important;
+    padding: 1%;
+    margin: auto 10px;
+    
+}
+
+#imgPrincipal{
+    width: 50%;
+}
+
+#thelistGroup{
+    border: 1px solid black !important;
+
+}
+
+.list-group-item{
+    border: 1px solid black !important;
 }
 
 
