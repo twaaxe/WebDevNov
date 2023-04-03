@@ -14,8 +14,8 @@ export default function Header(){
     //         </Col>
     //     </Row>
 
-    <Navbar bg="light" variant="light">
-        <Container className=' '>
+    <Navbar bg="dark" variant="dark">
+        <Container >
            
                 
             <Navbar.Brand href="#home">About Kero</Navbar.Brand>

@@ -1,40 +1,54 @@
-#webdesignRow{
-    border: 2px solid black !important;
-    
+#webdesignRow {
+    border: 1px solid black !important;
+
 }
 
-.headerButton > div{
+.headerButton>div {
     border: 2px solid black;
     padding: 1%;
 }
 
-nav > .container > a {
+
+nav>.container>a {
     border: 2px solid black;
-    position: relative;
-    top: -15px;
-    left: -65px;
+    position: absolute;
+    top: -0px;
+    left: -0px;
     padding: 0 1%;
 }
 
-
-.nav-link{
+.nav-link {
     border: 2px solid black !important;
     padding: 1%;
     margin: auto 10px;
+
+}
+
+#thelistGroup {
+    border: 1px solid black !important;
+
+
+}
+
+
+.list-group-item {
+    border: 1px solid black !important;
     
 }
 
-#imgPrincipal{
+.list-group{
+    border-bottom: 1px solid black;
+}
+
+
+#imgPrincipal {
     width: 50%;
 }
 
-#thelistGroup{
-    border: 1px solid black !important;
 
+
+.container {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
-
-.list-group-item{
-    border: 1px solid black !important;
-}
-
-
