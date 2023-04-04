@@ -7,7 +7,7 @@ import {Row,Col} from 'react-bootstrap';
 export default function Footer(){
 
     return(
-        <Row className=" text-center"  id="footer">
+        <Row className=" text-center m-0"  id="footer">
             <p>CopyRight</p>
         </Row>
     )
