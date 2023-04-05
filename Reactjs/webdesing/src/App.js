@@ -64,22 +64,6 @@ function App() {
                     <img src="https://picsum.photos/id/237/200" className="img-thumbnail" />
                   </Col>
 
-                  {/* <Col md={2} className="text-center ">
-                  <MyOwnCard link="https://picsum.photos/id/237/200" />
-                </Col>
-                <Col md={2} className="text-center">
-                <MyOwnCard link="https://picsum.photos/id/237/200" /> 
-                </Col>
-                <Col md={2} className="text-center">
-                <MyOwnCard link="https://picsum.photos/id/237/200" />
-                </Col>
-                <Col md={2} className="text-center">
-                <MyOwnCard link="https://picsum.photos/id/237/200" />
-                </Col>
-                <Col md={2} className="text-center">
-                <MyOwnCard link="https://picsum.photos/id/237/200" />
-                </Col>  */}
-
                 </Row>
               </Container>
             </Col>
