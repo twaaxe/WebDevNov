@@ -119,7 +119,19 @@ WHEN NEW REACT PROJECT
 3-
     import the app.js
     import bootstrap
-    
+    ----------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------
+
+https://codepen.io/collection/ZMJkQo?sort_order=desc&sort_by=id
+
+
+Heroku = plateforme de cloud computing pour déployer, héberger et de gérer des applications web. une des premières plateformes en tant que service (PaaS) 
+
+onLoad = Old
+domcontentloaded = new
+
+
+
 
 
 

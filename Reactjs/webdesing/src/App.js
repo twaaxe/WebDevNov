@@ -5,18 +5,17 @@ import ProjectList from './component/ProjectList';
 
 function App() {
   return (
-
     <>
       <main>
-        <Row className="row bg-secondarya" id="webdesignRow">{/*1st row content = web design*/}
-          <Col md={3} className=" text-end my-2">
+        <Row className=" bg-secondary m-0 p-0" id="webdesignRow">{/*1st row content = web design*/}
+          <Col md={3} className=" text-end ">
             <h1>Web Design</h1>
           </Col>
         </Row>
 
-        <Container fluid className=''>
+        <Container fluid className='p-0'>
 
-          <Row>{/*2nd row content = main part*/}
+          <Row className='m-0'>{/*2nd row content = main part*/}
             <Col md={3} className="text-end p-0 m-0" id="thelistGroup">
 
               <ProjectList />
