@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
 
     return (
+        <>
         <Navbar bg="dark" variant="dark" className='m-0'>
             <Navbar.Brand href="/">About Kero</Navbar.Brand>
 
@@ -20,5 +21,11 @@ export default function Header() {
             </Nav>
 
         </Navbar>
+         <Row className=" bg-secondary m-0 p-0" id="webdesignRow">{/*1st row content = web design*/}
+         <Col md={3} className=" text-end ">
+           <h1>Web Design</h1>
+         </Col>
+       </Row>
+       </>
     )
 }

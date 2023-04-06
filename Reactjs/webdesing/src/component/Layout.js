@@ -1,5 +1,5 @@
 import Header from "./Header"
-import Footer from "./Footer"
+import { Row, Col, Nav, Navbar, Container } from 'react-bootstrap';
 
 export default function Layout({ children }) {
     return (
@@ -7,8 +7,11 @@ export default function Layout({ children }) {
 
         <>
             <Header />
-            {children}
-
+            <Container fluid className='p-0'>
+            <Row className='m-0'>
+                {children}
+            </Row>
+            </Container>
 
         </>
     )

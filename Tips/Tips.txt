@@ -130,6 +130,8 @@ Heroku = plateforme de cloud computing pour déployer, héberger et de gérer de
 onLoad = Old
 domcontentloaded = new
 
+google dorking
+
 
 
 

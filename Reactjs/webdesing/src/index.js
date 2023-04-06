@@ -7,10 +7,10 @@ import './Style.css'
 // import {} from "react-router";
 import { BrowserRouter,  Route, Routes  } from "react-router-dom";
 
-import Project1 from './component/pages/Project1';
-import Project2 from './component/pages/Project2';
-import Project3 from './component/pages/Project3';
-import Project4 from './component/pages/Project4';
+import Project1 from './component/pageswebdesign/Project1';
+import Project2 from './component/pageswebdesign/Project2';
+import Project3 from './component/pageswebdesign/Project3';
+import Project4 from './component/pageswebdesign/Project4';
 import Footer from './component/Footer';
 
 
