@@ -135,5 +135,25 @@ google dorking
 
 
 
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+Entrepise qui demande bcp seon Benedict:
 
 
+Technologie bcp demandée a Benedict:
+letmesee.be
+
+
+------------------------------------------------------ICT - Alles Job
+angular  is very used(dur a apprendre askip) --------390 -  411
+next.js is very used (pour react mais en typescript) 180 -698
+vue.js is not very used ------------------------------150 -1350
+
+
+
+PORTOFIO MUST HAVE
+-Downlozd cvdans toute les lanues parlee
+-met +rs fois le numero de telephone
+-ville ou on est situe (plus facile, si le job est pa sen remote)
+-ne dit pas que tu ne connais pas bcp de chose(mettre connu a 65% est contre poductif)
