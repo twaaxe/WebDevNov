@@ -1,11 +1,20 @@
 @import "./variable";
-header {
-    background-color: $primarycolor;
-    display: flex;
-    justify-content: center;
-    color: $textcolor;
+@mixin flexcenter($direction, $background){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: $direction;
+  background : $background;
+}
 
-    height: 100vh;
+//  $colorOne : rgb(62, 50, 168);
+header {
+
+    @include flexcenter(column,red);
+   
+    color: $textcolor;
+    
 
     button{
       background: $primarycolor;

@@ -1,7 +1,29 @@
 header {
-  background-color: rgb(150, 0, 90);
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: red;
+  color: rgb(160, 60, 160);
+}
+header button {
+  background: rgb(150, 0, 90);
+}
+header button:hover {
+  color: rgb(3, 252, 227);
+}
+header button::after {
+  content: "Wazza";
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: red;
   color: rgb(160, 60, 160);
 }
 header button {
@@ -16,6 +38,15 @@ header button::after {
 
 .contact button {
   background: rgb(150, 0, 90);
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: blue;
 }
 
 button {

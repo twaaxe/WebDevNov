@@ -1,5 +1,16 @@
 @import "./variable";
+@import "./header";
 .contact button {
     background: $primarycolor;
     
   }
+
+  .contact{
+
+    @include flexcenter(column, blue);
+
+
+
+  }
+
+  
