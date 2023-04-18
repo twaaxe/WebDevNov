@@ -1,0 +1,19 @@
+@import "./variable";
+header {
+    background-color: $primarycolor;
+    display: flex;
+    justify-content: center;
+    color: $textcolor;
+
+    height: 100vh;
+
+    button{
+      background: $primarycolor;
+      &:hover{
+        color : rgb(3, 252, 227)
+      }
+      &::after{
+        content:"Wazza";
+      }
+    }
+  }

@@ -1,14 +1,9 @@
-this is a commit test
-
-position absolute fixed sticky ...
 	LEARN FLEXBOX
 https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
 container---> display flex / justify content
 flexboxfroggy.com  game learn contenair
 flexboxdefense 	"			"
  
-hackerspace bxl
-https://hsbxl.be/
 
 CSS GRADIENT ANIMATION
 https://codepen.io/P1N2O/pen/pyBNzX
@@ -19,31 +14,7 @@ flexbox plate
 favicon generator
 css shadow-box generator
 
- https://chatgpt.netlify.app/
-https://chat.openai.com/
 
-CSS Custom Bootstrap
-getbootstrap.com/docs/5.2/layout/grid
-
-
-Github command line
-https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
-
-
-html template example
-https://html5up.net/forty
-
-
-landing page template
-start at 9h30
-pause at 12
-star again at 13h30
-finish at 14h25
-details until 15h40
-
-
-hackerspace bxl
-https://hsbxl.be/
 
 odoo.com
 
@@ -76,6 +47,29 @@ la lune attire la mer
 http://collectifsecretdefense.fr/
 
 https://www.thomassankara.net/category/francais/actualites/justice-pour-sankara/
+
+
+
+https://codepen.io/collection/ZMJkQo?sort_order=desc&sort_by=id
+
+
+Heroku = plateforme de cloud computing pour déployer, héberger et de gérer des applications web. une des premières plateformes en tant que service (PaaS) 
+
+onLoad = Old
+domcontentloaded = new
+
+google dorking
+
+
+
+
+Github command line
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+
+html template example
+https://html5up.net/forty
 
 https://www.npmjs.com/package/json-server
 
@@ -122,21 +116,6 @@ WHEN NEW REACT PROJECT
     ----------------------------------------------------------------------------------------
     ----------------------------------------------------------------------------------------
 
-https://codepen.io/collection/ZMJkQo?sort_order=desc&sort_by=id
-
-
-Heroku = plateforme de cloud computing pour déployer, héberger et de gérer des applications web. une des premières plateformes en tant que service (PaaS) 
-
-onLoad = Old
-domcontentloaded = new
-
-google dorking
-
-
-
-
-----------------------------------------------------------------------------------
-----------------------------------------------------------------------------------
 
 Entrepise qui demande bcp seon Benedict:
 
@@ -157,3 +136,6 @@ PORTOFIO MUST HAVE
 -met +rs fois le numero de telephone
 -ville ou on est situe (plus facile, si le job est pa sen remote)
 -ne dit pas que tu ne connais pas bcp de chose(mettre connu a 65% est contre poductif)
+
+
+https://grid.malven.co/

@@ -1,13 +1,12 @@
-$pimarybutton: rgb(0, 191, 255);
-$textColor: yellow;
+@import "./header";
+@import "./variable";
+@import "./contact";
 
-header {
-  background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  color: $textColor;
-}
+
+
+
+
 
 button {
-  background: $pimarybutton;
+  border : $border
 }
