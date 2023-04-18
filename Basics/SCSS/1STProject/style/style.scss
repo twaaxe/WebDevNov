@@ -1,0 +1,13 @@
+$pimarybutton: rgb(0, 191, 255);
+$textColor: yellow;
+
+header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  color: $textColor;
+}
+
+button {
+  background: $pimarybutton;
+}

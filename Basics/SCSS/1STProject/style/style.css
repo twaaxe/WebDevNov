@@ -1,0 +1,10 @@
+header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+
+button {
+  background: rgb(0, 191, 255);
+}/*# sourceMappingURL=style.css.map */
