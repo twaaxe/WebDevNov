@@ -1,39 +1,61 @@
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  background: red;
-  color: rgb(160, 60, 160);
-}
-header button {
-  background: rgb(150, 0, 90);
-}
-header button:hover {
-  color: rgb(3, 252, 227);
-}
-header button::after {
-  content: "Wazza";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header {
+header, .contact {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background: red;
-  color: rgb(160, 60, 160);
+  background: rgb(210, 71, 71);
+  color: black;
+  font-weight: 200;
 }
-header button {
+header button, .contact button {
   background: rgb(150, 0, 90);
 }
-header button:hover {
+header button:hover, .contact button:hover {
   color: rgb(3, 252, 227);
 }
-header button::after {
+header button::after, .contact button::after {
   content: "Wazza";
+}
+header p, .contact p {
+  color: black;
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(210, 71, 71);
+  color: black;
+  font-weight: 200;
+}
+header button, .contact button {
+  background: rgb(150, 0, 90);
+}
+header button:hover, .contact button:hover {
+  color: rgb(3, 252, 227);
+}
+header button::after, .contact button::after {
+  content: "Wazza";
+}
+header p, .contact p {
+  color: black;
+  font-weight: 800;
 }
 
 .contact button {
@@ -41,12 +63,7 @@ header button::after {
 }
 
 .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  background: blue;
+  background: rgb(145, 145, 213);
 }
 
 button {

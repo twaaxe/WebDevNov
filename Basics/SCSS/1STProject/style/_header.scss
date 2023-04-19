@@ -1,28 +1,43 @@
+@import "./reset";
 @import "./variable";
-@mixin flexcenter($direction, $background){
+
+@mixin flexcenter($direction, $background) {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: $direction;
-  background : $background;
+  background: $background;
 }
+
+$fontWeight : ("aze": 200,
+  "rty": 600,
+  "uio": 800);
 
 //  $colorOne : rgb(62, 50, 168);
 header {
 
-    @include flexcenter(column,red);
-   
-    color: $textcolor;
-    
+  @include flexcenter(column, rgb(210, 71, 71));
 
-    button{
-      background: $primarycolor;
-      &:hover{
-        color : rgb(3, 252, 227)
-      }
-      &::after{
-        content:"Wazza";
-      }
+  color: $textcolor;
+
+  font-weight: map-get($fontWeight, aze);
+
+  button {
+    background: $primarycolor;
+
+
+    &:hover {
+      color: rgb(3, 252, 227)
+    }
+
+    &::after {
+      content: "Wazza";
     }
   }
+
+  p {
+    color: black;
+    font-weight: map-get($fontWeight, uio);
+  }
+}
