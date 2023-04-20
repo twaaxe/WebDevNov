@@ -10,11 +10,13 @@
   background: $background;
 }
 
-$fontWeight : ("aze": 200,
-  "rty": 600,
-  "uio": 800);
 
-//  $colorOne : rgb(62, 50, 168);
+ $fontWeight : ("aze": 2000,
+   "rty": 600,
+   "uio": 800);
+
+
+
 header {
 
   @include flexcenter(column, rgb(210, 71, 71));
