@@ -1,33 +1,30 @@
-
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Router from "./components/Router"
+import Layout from './components/Layout';
 
 function App() {
+
+
+
+
+
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-
-          <h1>Amazon clone project</h1>
-          
-          <Route path="/checkout">
-            <h1>Checkout</h1>
-          </Route>
-
-          <Route path="/login">
-            <h1>Login page</h1>
-          </Route>
-
-          <Route path="/">
-            <h1>Home page</h1>
-          </Route>
-
-          
-        </Switch>
-      </div>
-    </Router>
+    <>
+    <Layout>
+      
+    </Layout>
+    </>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Home />}/>
+    //     <Route path="Login" element={<Login />} />
+    //     <Route path="Checkout" element={<Checkout />} />
+    //   </Routes>
+    // </BrowserRouter>
   );
-  
+
 }
 
 export default App;
