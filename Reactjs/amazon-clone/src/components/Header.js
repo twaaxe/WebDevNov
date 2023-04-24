@@ -2,12 +2,7 @@ import React from "react";
 import '../style/Header.css'
 import { Link } from 'react-router-dom'
 
-/*
-import SearchIcon from '@material-ui/icons/Search';
- PROVOQUE BUG WITH MATERIAL UI
- */
-// import SearchIcon from '@mui/icons-material/Search';
-
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function Headers() {
 
@@ -21,7 +16,7 @@ export default function Headers() {
                 </Link>
                 {/* search box */}
                 <input className="header__searchInput" type="text" />
-                {/* <SearchIcon className="header_searchIcon" /> */}
+                <SearchIcon className="header_searchIcon" />
 
 
                 {/* 3links */}
