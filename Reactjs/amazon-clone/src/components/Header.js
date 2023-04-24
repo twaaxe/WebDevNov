@@ -1,47 +1,57 @@
 import React from "react";
-import '../style/Header.css'
 import { Link } from 'react-router-dom'
-
 import SearchIcon from '@mui/icons-material/Search';
+import '../style/Header.css'
+import AmazonLogo from "./Amazon.png"
+
 export default function Headers() {
 
     return (
         <>
             <nav className="header">
 
-                {/* logo on the left */}
                 <Link to="checkout">
-                    <img className="header_logo" src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png" />
+                    <img src={AmazonLogo} alt="Logo" className="header_logo" />
                 </Link>
-
-                {/* search box */}
+                
                 <input className="header__searchInput" type="text" />
-              {/*  <SearchIcon className="header__searchIcon" /> 
-                 using it provoque an error*/}
+               {/* <SearchIcon className="header__searchIcon" /> THROW ERROR*/}
+
+
 
 
                 {/* 3links */}
-                {/* basket icon with number */}
-                <div className="header__Nav">
-                    
-                    <Link  className="header__link">
-                        <div className="header__option">
-                            <span>Hello Axel</span>
-                            <span>Sing in</span>
-                        </div>
-                    </Link>
-                    {/* 1:23:13 hours o video */}
+                <Link to="./login" className="header__link">
+                    <div className="header__option">
+                        <span>Hello Axel</span>
+                        <span>Sign in</span>
+                    </div>
+                </Link>
+                <Link to="/" className="header__link">
+                    <div className="header__option">
+                        <span>Return</span>
+                        <span>Order</span>
+                    </div>
+                </Link>
 
-                    <Link>
-                    <span>Sign in</span>
-                    </Link>
 
-                    <Link>
-                    <span>Hello Axel</span>
-                    </Link>
-                
-                </div>
+                <Link to="./" className="header__link">
+                    <div className="header__option">
+                        <span>Your</span>
+                        <span>Prime</span>
+                    </div>
+                </Link>
 
+
+                <Link to="./checkout" className="header__link">
+                    <div className="header__optionBasket">
+                        {/* sohppingBasket icon */}
+                        {/* <ShoppingBasketIcon /> */}
+                        {/* n° of itm in basket */}
+                        <span>Your</span>
+                        <span>Prime</span>
+                    </div>
+                </Link>
             </nav>
 
         </>
