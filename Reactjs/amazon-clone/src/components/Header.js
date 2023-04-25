@@ -7,6 +7,7 @@ import AmazonLogo from "./Amazon.png"
 export default function Headers() {
 
     return (
+        
         <>
             <nav className="header">
 
@@ -16,8 +17,6 @@ export default function Headers() {
                 
                 <input className="header__searchInput" type="text" />
                {/* <SearchIcon className="header__searchIcon" /> THROW ERROR*/}
-
-
 
 
                 {/* 3links */}
