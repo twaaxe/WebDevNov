@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import SearchIcon from '@mui/icons-material/Search';
+// import SearchIcon from '@mui/icons-material/Search';
 import '../style/Header.css'
-import AmazonLogo from "./Amazon.png"
+import AmazonLogo from "./img/Amazon.png"
 
 export default function Headers() {
 
     return (
-        
+
         <>
             <nav className="header">
 
                 <Link to="checkout">
                     <img src={AmazonLogo} alt="Logo" className="header_logo" />
                 </Link>
-                
+
                 <input className="header__searchInput" type="text" />
-               {/* <SearchIcon className="header__searchIcon" /> THROW ERROR*/}
+                {/* <SearchIcon className="header__searchIcon" /> THROW ERROR*/}
 
 
                 {/* 3links */}
