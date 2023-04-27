@@ -3,8 +3,13 @@ import { Link } from 'react-router-dom'
 // import SearchIcon from '@mui/icons-material/Search';
 import '../style/Header.css'
 import AmazonLogo from "./img/Amazon.png"
+import { useStateValue } from "../StateProvider";
 
 export default function Headers() {
+
+    const [{ basket }, dispatch] = useStateValue();
+    console.log(basket)
+
 
     return (
 
@@ -44,11 +49,9 @@ export default function Headers() {
 
                 <Link to="./checkout" className="header__link">
                     <div className="header__optionBasket">
-                        {/* sohppingBasket icon */}
                         {/* <ShoppingBasketIcon /> */}
                         {/* n° of itm in basket */}
-                        <span>Your</span>
-                        <span>Prime</span>
+                        <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
                     </div>
                 </Link>
             </nav>

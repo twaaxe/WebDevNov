@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <Headers />
       <Routes>
-        
-        
+
+
         <Route path="Login" element={<Login />} />
         <Route path="Checkout" element={<Checkout />} />
         <Route path="/" element={<Home />} />

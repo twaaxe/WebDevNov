@@ -13,6 +13,11 @@ export const StateProvider = ({ reducer, initialState, children }) => {
         {children}
     </StateContext.Provider>
 }
+// has to be linked with Reducer.js and get it's const(in index.js)
+
+export const useStateValue = () => useContext(StateContext);
+
+
 
 
 //in amazon clone projet (1st use of state provider), it wrap the entire <App /> in index.js
