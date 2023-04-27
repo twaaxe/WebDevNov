@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Home.css";
 import Product from "../components/Product";
-import Pexels from "../components/img/pexels.jpg";
+import cola from "../components/img/cola.jpg";
 import Amazon from "../components/img/Amazon.png";
 import ipad from "../components/img/ipad.png";
 import animalfarm from "../components/img/animalfarm.png";
@@ -21,7 +21,7 @@ export default function Home() {
 
             <div className="home__row">
                 {/* <Product id="idproduct" title="ThisIsTheProducTitle" price={50} rating={5} image={require(imagess[1])} /> */}
-                <Product id="idproduct" title="ThisIsTheProducTitle" price={50} rating={5} image={Pexels} />
+                <Product id="idproduct" title="ThisIsTheProducTitle" price={50} rating={5} image={cola} />
 
                 <Product id="idproduct" title="ThisProducTitle" price={40} rating={5} image={imagess[0]} />
             </div>

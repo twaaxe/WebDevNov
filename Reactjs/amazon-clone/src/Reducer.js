@@ -1,5 +1,27 @@
 export const initialState = {
-    basket: [],
+    basket: [
+        {
+            id: "idproduct",
+            image: "https://picsum.photos/200/300",
+            price: 30,
+            rating: 5,
+            title: "ThisProducTitle"
+        },
+        {
+            id: "idproduct",
+            image: "https://picsum.photos/200/300",
+            price: 30,
+            rating: 5,
+            title: "ThisProducTitle"
+        },
+        {
+            id: "idproduct",
+            image: "https://picsum.photos/200/300",
+            price: 30,
+            rating: 5,
+            title: "ThisProducTitle"
+        }
+    ],
     user: null,
     //i guesse there are the datas from the data layer
 };
