@@ -4,6 +4,8 @@ import CheckoutProduct from '../components/CheckoutProduct';
 import SubTotal from "../components/SubTotal";
 
 
+
+
 export default function Checkout() {
 
     const [{ basket }] = useStateValue();
