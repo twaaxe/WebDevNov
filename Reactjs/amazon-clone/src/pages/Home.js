@@ -5,6 +5,7 @@ import cola from "../components/img/cola.jpg";
 import ipad from "../components/img/ipad.png";
 import animalfarm from "../components/img/animalfarm.png";
 import xbox from "../components/img/xbox.png";
+import Headers from "../components/Header";
 
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
 
     return (
         <>
+
+            <Headers />
+
             {/* <h1>Home page</h1> */}
             <div className="home">
                 <img src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" className="home__image" alt="banner" />

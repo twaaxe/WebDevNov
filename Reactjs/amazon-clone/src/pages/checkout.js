@@ -2,6 +2,7 @@ import { useStateValue } from "../StateProvider";
 import "../style/Checkout.css"
 import CheckoutProduct from '../components/CheckoutProduct';
 import SubTotal from "../components/SubTotal";
+import Headers from "../components/Header";
 
 
 
@@ -12,6 +13,7 @@ export default function Checkout() {
 
     return (
         <>
+            <Headers />
 
             <div className="checkout">
                 <div className="checkout__left">

@@ -16,7 +16,7 @@ export default function Headers() {
         <>
             <nav className="header">
 
-                <Link to="checkout">
+                <Link to="/checkout">
                     <img src={AmazonLogo} alt="Logo" className="header_logo" />
                 </Link>
 
@@ -25,7 +25,7 @@ export default function Headers() {
 
 
                 {/* 3links */}
-                <Link to="./login" className="header__link">
+                <Link to="/login" className="header__link">
                     <div className="header__option">
                         <span>Hello Axel</span>
                         <span>Sign in</span>

@@ -3,15 +3,23 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Checkout from './pages/checkout';
-import Headers from './components/Header';
+import { useStateValue } from './StateProvider';
+import { useEffect } from 'react';
 
 
 function App() {
+  const [{ basket }, dispatch] = useStateValue();
+  //piece of code run based on given conditinon
+
+  useEffect(() => {
+
+  }, [])
+
 
   return (
 
     <BrowserRouter>
-      <Headers />
+
       <Routes>
 
 
