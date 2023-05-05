@@ -17,7 +17,9 @@ export default function Home() {
                             <Image src={Photo_cv} rounded />
                         </div>
 
-                        <div className='my-2'> une photo clliquable de moi, un menu deroulant qui me presente</div>
+                        <p className="my-2">
+                            Je suis un homme de 26 ans très dynamique et ambitieux, efficace et minutieux dans mon travail. Je suis curieux et j'aime les ambiance où les idées s'échangent facilement ce qui aide à mon développement personnel et au développement professionnel en général. Je crois en l'importance de la bonne communication et organisation sur le lieux de travail.
+                        </p>
                     </Col>
 
 
@@ -38,7 +40,7 @@ export default function Home() {
 
                 <Row className='text-center' id="education">
 
-                    <Col lg={3} sm={6}>ephec
+                    <Col lg={3} sm={6}>
 
                         <div>
                             <div>
@@ -56,7 +58,7 @@ export default function Home() {
                         </div>
                     </Col>
 
-                    <Col lg={3} sm={6}>openClassRoom
+                    <Col lg={3} sm={6}>
                         <div>
                             <div >
                                 <h5>Aout 2020</h5>
@@ -73,7 +75,7 @@ export default function Home() {
 
                     </Col>
 
-                    <Col lg={3} sm={6}>Udemy
+                    <Col lg={3} sm={6}>
                         <div >
                             <div>
                                 <h5>Fevrier 2021</h5>
@@ -92,12 +94,12 @@ export default function Home() {
 
                     </Col>
 
-                    <Col lg={3} sm={6}>Intec
+                    <Col lg={3} sm={6}>
                         <div >
                             <div >
                                 <h5>Novembre 2022 -Aout 2023</h5>
                                 <span class="glyphicon glyphicon-education"></span>
-                                <h3>Udemy</h3>
+                                <h3>Intec</h3>
                                 <h4>Formation développeur web</h4>
                                 <ul>
                                     <li><p>Conception de sites web</p></li>
