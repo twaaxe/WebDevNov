@@ -12,12 +12,30 @@
 
 body {
     background-color: lightgrey;
+    padding-top: 55px;
 }
 
 .container-fluid {
     padding: 0;
     margin: 0;
 }
+
+.toScrollPad {
+    padding-top: 50px;
+}
+
+/* HEADER */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+
+
 
 /* ABOUTME */
 
@@ -29,9 +47,6 @@ body {
 
 
 
-
-
-
 /* ---COMPETENCE */
 
 
@@ -39,12 +54,18 @@ body {
 #education,
 #competences {
     width: 100%;
-    height: 50vh;
-    padding: 10px;
+    height: 100vh;
     border: 1px solid black;
     margin: 0;
+
+
 }
 
+#competences {
+    /* height: 50vh; */
+    background: rgb(190, 190, 190);
+    /* background: red; */
+}
 
 .vertCont {
     position: relative;
@@ -69,12 +90,24 @@ body {
 
 /* ---EDUCATION */
 
-#education {
-    /* box-sizing: content-box; */
-    /* margin: 0; */
+.educationBlock {
+
+    /* background-color: red; */
+    border: 1px solid black;
+    border-top: none;
+    /* donner un efet de lampe */
+    height: 45%;
+    padding-top: 4%;
+    margin: 0 2%;
+
+
 }
 
-#competences {}
+#education {
+    box-sizing: content-box;
+
+}
+
 
 .educationBlock {}
 

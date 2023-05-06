@@ -9,7 +9,7 @@ export default function AboutMe() {
     return (
         <>
 
-            <Row className='mx-3 my-1 ' id="aboutMe">
+            <Row className='toScrollPad ' id="aboutMe">
                 <Col className='text-center my-auto'>
                     <div className='my-2'>
                         <Image src={Photo_cv} rounded />
