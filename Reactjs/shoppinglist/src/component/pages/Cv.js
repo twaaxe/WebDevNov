@@ -10,7 +10,7 @@ export default function Cv() {
 
             <Education />
 
-            <Portfolio />
+            {/* <Portfolio /> */}
             {/* portfolio va aussi renvoyer vers project done-- project done = portfolio */}
 
         </>

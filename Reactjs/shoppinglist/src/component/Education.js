@@ -7,7 +7,6 @@ import Photo_cv from "./images/photo_cv.jpg"
 export default function Education() {
     return (
         <>
-
             <Row className='text-center ' id="education">
                 <Col lg={3} sm={6} className='my-auto educationBlock'>
 
