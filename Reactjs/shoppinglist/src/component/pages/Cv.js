@@ -1,9 +1,18 @@
 import React from 'react'
+import Competences from '../Competences';
+import Education from '../Education';
+import Portfolio from '../Portfolio';
 
-export default function Home() {
+export default function Cv() {
     return (
-        <div>
-            <h1>this is the <strong>CV</strong> page</h1>
-        </div>
+        <>
+            <Competences />
+
+            <Education />
+
+            <Portfolio />
+            {/* portfolio va aussi renvoyer vers project done-- project done = portfolio */}
+
+        </>
     )
 }
