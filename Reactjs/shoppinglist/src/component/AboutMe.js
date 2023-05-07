@@ -2,13 +2,14 @@ import React from 'react'
 import { Row, Col, Image, Button } from 'react-bootstrap';
 import Photo_cv from "./images/photo_cv.jpg"
 import "../style/style.css"
+import Challenge from './pages/project/Challenge';
 
 
 
 export default function AboutMe() {
     return (
         <>
-
+            <Challenge />
 
             <Row className='toScrollPad' id="aboutMe">
                 <Col className='text-center my-auto'>
