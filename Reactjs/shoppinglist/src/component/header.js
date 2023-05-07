@@ -8,34 +8,30 @@ export default function Header() {
         <>
 
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                <div className="container">
+                <div className="container  my-auto">
 
+                    <ul className="navbar-nav me-auto mt-2 mt-lg-0">
 
-                    <Link to={"/"}>
-                        <a className="navbar-brand" href="#"><i className="fas fa-warehouse me-2"></i>Home, how am i</a>
-                    </Link>
+                        <li className='nav-item'>
+                            <Link to={"/"}>
+                                <a className="nav-link" href="#"><span> <h5>How am I</h5></span></a>
+                            </Link>
+                        </li>
 
+                        <li className="nav-item">
 
-                    <div className="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul className="navbar-nav me-auto mt-2 mt-lg-0">
-                            <li className="nav-item">
+                            <Link to={"/Cv"} >
+                                <a className="nav-link" href="#" aria-current="page"> <span className=""><h5>Parcour</h5></span></a>
+                            </Link>
 
-                                <Link to={"/Cv"} >
-                                    <a className="nav-link" href="#" aria-current="page">CV, parcour <span
-                                        className="visually-hidden">(current)</span></a>
-                                </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to={"/Projects"}>
+                                <a className="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" href="#" aria-current="page"> <span><h5>Projects Done</h5></span></a>
+                            </Link>
 
-                            </li>
-                            <li className="nav-item">
-                                <Link to={"/Projects"}>
-                                    <a className="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" href="#" aria-current="page">Projects done <span
-                                        className="visually-hidden">(current)</span></a>
-                                </Link>
-
-                            </li>
-                        </ul>
-
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </nav >
 

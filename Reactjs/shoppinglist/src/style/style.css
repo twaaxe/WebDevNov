@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black
+}
+
+a {
+    text-decoration: none;
 }
 
 .product-image {
@@ -11,9 +16,10 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #F5EFE8;
     padding-top: 55px;
 }
+
 
 .container-fluid {
     padding: 0;
@@ -22,6 +28,14 @@ body {
 
 .toScrollPad {
     padding-top: 50px;
+    /* overflow: scroll; */
+}
+
+.roundedCorners {
+    border-radius: 1%;
+    box-shadow: 3px 10px 29px -5px rgba(46, 38, 10, 0.46);
+    -webkit-box-shadow: 3px 10px 29px -5px rgba(46, 38, 10, 0.46);
+    -moz-box-shadow: 3px 10px 29px -5px rgba(46, 38, 10, 0.46);
 }
 
 /* HEADER */
@@ -31,21 +45,36 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
+    height: 60px;
+    background: #C5B5A5 !important;
+    /*background: #D8A48F  */
+    color: black !important;
 
 }
-
-
-
 
 /* ABOUTME */
 
 #aboutMe {
     height: 100vh;
     width: 100%;
+
+}
+
+#aboutMe>div:nth-child(2)>p {
+    /* background-color: #F2E5D5; */
+    background-color: #d2c2b6;
+
 }
 
 
+#aboutMeText {
+    padding: 4%;
+    margin-right: 5%;
+}
 
+#cv_photo {
+    width: 65%;
+}
 
 /* ---COMPETENCE */
 
@@ -54,7 +83,6 @@ body {
 #education,
 #competences {
     width: 100%;
-    height: 100vh;
     border: 1px solid black;
     margin: 0;
 
@@ -62,9 +90,9 @@ body {
 }
 
 #competences {
-    /* height: 50vh; */
+    height: 100vh;
     background: rgb(190, 190, 190);
-    /* background: red; */
+
 }
 
 .vertCont {
@@ -90,37 +118,36 @@ body {
 
 /* ---EDUCATION */
 
-.educationBlock {
-
-    /* background-color: red; */
-    border: 1px solid black;
-    border-top: none;
-    /* donner un efet de lampe */
-    height: 45%;
-    padding-top: 4%;
-    margin: 0 2%;
-
-
-}
 
 #education {
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
+    padding: 1%;
+    min-height: 100vh;
 
 }
 
+.educationBlock {
 
-.educationBlock {}
-
-
+    border: 1px solid black;
+    border-top: none;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: auto 2%;
+    overflow: scroll;
+    background: #F2E5D5;
+    border-radius: 1% 7% 18% 2%;
+}
 
 
 
 /* PROJECT */
 .ProjectRow {
-    position: relative;
-    top: 10%;
+    /* box-sizing: content-box; */
     overflow: scroll;
     height: 100vh;
+    padding: 1%;
+
 }
 
 .ProjectRow>.col-md-4 {
@@ -142,4 +169,10 @@ body {
     overflow: scroll;
     /* background: red; */
     /* height: 83%; */
+}
+
+
+/* FOOTER */
+#footer {
+    background-color: #B5A58D !important;
 }

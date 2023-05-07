@@ -4,7 +4,7 @@ export default function Footer() {
         <>
 
 
-            <footer className="bg-light text-center text-lg-start">
+            <footer className="bg-light text-center text-lg-start" id="footer">
                 <div className="container p-4">
                     <div className="row d-flex justify-content-around">
 
@@ -42,7 +42,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="text-center p-3" style={{ background: "#000" }}>
+                <div className="text-center p-3" >
                     © 2023 1337's warehouse. All rights reserved.
                 </div>
             </footer>

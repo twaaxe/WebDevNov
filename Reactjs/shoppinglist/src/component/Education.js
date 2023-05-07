@@ -9,8 +9,9 @@ export default function Education() {
         <>
             <Container fluid>
 
-                <Row className='text-center justify-content-center toScrollPad ' id="education">
-                    <Col lg={3} sm={6} className='my-auto educationBlock'>
+                <Row className='text-center justify-content-center toScrollPad' id="education">
+
+                    <Col lg={3} sm={6} className='my-auto educationBlock roundedCorners'>
 
                         <div>
                             <div>
@@ -28,7 +29,8 @@ export default function Education() {
                         </div>
                     </Col>
 
-                    <Col lg={3} sm={6} className='my-auto educationBlock'>
+
+                    <Col lg={3} sm={6} className='my-auto educationBlock roundedCorners'>
                         <div>
                             <div >
                                 <h5>Aout 2022</h5>
@@ -42,10 +44,10 @@ export default function Education() {
                                 </ul>
                             </div>
                         </div>
-
                     </Col>
 
-                    <Col lg={3} sm={6} className='my-auto educationBlock'>
+
+                    <Col lg={3} sm={6} className='my-auto educationBlock roundedCorners'>
                         <div >
                             <div>
                                 <h5>Fevrier 2021</h5>
@@ -61,10 +63,9 @@ export default function Education() {
                                 </ul>
                             </div>
                         </div>
-
                     </Col>
 
-                    <Col lg={3} sm={6} className='my-auto educationBlock'>
+                    <Col lg={3} sm={6} className='my-auto educationBlock roundedCorners'>
                         <div >
                             <div >
                                 <h5>Novembre 2022 -Aout 2023</h5>
@@ -80,8 +81,9 @@ export default function Education() {
                                 </ul>
                             </div>
                         </div>
-
                     </Col>
+
+
                 </Row>
             </Container>
         </>
