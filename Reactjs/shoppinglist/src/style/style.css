@@ -43,13 +43,13 @@ body {
 .navbar {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 1000;
     height: 60px;
     background: #C5B5A5 !important;
-    /*background: #D8A48F  */
     color: black !important;
-    left: 0px;
+    margin: 0;
 
 }
 

@@ -4,7 +4,7 @@ export default function Footer() {
         <>
 
 
-            <footer className="bg-light text-center text-lg-start" id="footer">
+            <footer className="bg-light text-center text-lg-start" id="footerCV">
                 <div className="container p-4">
                     <div className="row d-flex justify-content-around">
 

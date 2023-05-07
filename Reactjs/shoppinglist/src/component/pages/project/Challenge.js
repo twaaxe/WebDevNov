@@ -1,6 +1,7 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
-// import './styleProject/challenge.css'
+import './styleProject/challenge.css'
 
 
 import desktopImage from '../../challenge-main/images/image-intro-desktop.jpg'
@@ -49,14 +50,14 @@ export default function Challenge() {
             </div>
 
             <div class="col-sm">
-                {/* <img src="images/icon-affordable-prices.svg" alt="affordable price" /> */}
+              <img src="images/icon-affordable-prices.svg" alt="affordable price" />
                 <h2>Affordable Prices</h2>
                 <p>We don’t want you worrying about high monthly costs. Our prices may be low,
                     but we still offer the best coverage possible.</p>
             </div>
 
             <div class="col-sm">
-                {/* <img src="images/icon-people-first.svg" alt="people first" /> */}
+              <img src="images/icon-people-first.svg" alt="people first" />
                 <h2>People First</h2>
                 <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make
                     sure you’re covered when you need it.</p>
@@ -79,10 +80,10 @@ export default function Challenge() {
         <br />
         <div class="navNetwork">
             <ul>
-                {/* <li><a href=""><img src="images/icon-instagram.svg" alt="" /></a></li>
+              <!--  {/* <li><a href=""><img src="images/icon-instagram.svg" alt="" /></a></li>
                 <li><a href=""><img src="images/icon-pinterest.svg" alt="" /></a></li>
                 <li><a href=""><img src="images/icon-twitter.svg" alt="" /></a></li>
-                <li><a href=""><img src="images/icon-facebook.svg" alt="" /></a></li> */}
+                <li><a href=""><img src="images/icon-facebook.svg" alt="" /></a></li> */} -->
             </ul>
 
 
@@ -90,7 +91,7 @@ export default function Challenge() {
 
     </section>
 
-    <footer class="container">
+    <footer class="container" id="footerInsure">
         <div class="row">
             <div class="col-sm">
                 <ul>
@@ -149,8 +150,9 @@ export default function Challenge() {
     return (
 
         <>
-            {/* <div dangerouslySetInnerHTML={{ __html: myHtml }} />; */}
-            <h1>ifygifgy</h1>
+            <Container>
+                <div dangerouslySetInnerHTML={{ __html: myHtml }} />;
+            </Container>
         </>
 
     )

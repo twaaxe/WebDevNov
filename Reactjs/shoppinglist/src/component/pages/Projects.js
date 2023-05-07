@@ -10,12 +10,12 @@ export default function Projects() {
             <Container className=' text-center  '>
                 <Row className=' mx-auto  ProjectRow'>
                     <Col sm={12} md={4} className="my-auto">
-                        <Link to={"pages/project/Challenge"} target='_blank'>
+                        <Link to="/component/pages/project/Challenge" target='_blank'>
                             {/* <Image src="holder.js/171x180" rounded /> */}
                             <Card style={{/* width: '100%'*/ }} className='roundedCorners'>
                                 <Card.Img variant="top" src="holder.js/100px180" />
                                 <Card.Body>
-                                    <Card.Title className='  '>Music App</Card.Title>
+                                    <Card.Title className='  '>Web Dev Challenge</Card.Title>
                                     <Card.Text className=' my-4  '>
                                         Some quick example text to build on the card title and make up the
                                         bulk of the card's content.
@@ -47,7 +47,7 @@ export default function Projects() {
                         <Card style={{/* width: '100%'*/ }} className='roundedCorners'>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
-                                <Card.Title className='  '>Web Dev Challenge</Card.Title>
+                                <Card.Title className='  '>Music App</Card.Title>
                                 <Card.Text className=' my-4  '>
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.

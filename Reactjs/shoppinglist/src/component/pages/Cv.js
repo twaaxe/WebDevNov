@@ -6,7 +6,7 @@ import Portfolio from '../Portfolio';
 export default function Cv() {
     return (
         <>
-            <Competences />
+            {/* <Competences /> */}
 
             <Education />
 
