@@ -10,7 +10,7 @@ export default function Projects() {
             <Container className=' text-center  '>
                 <Row className=' mx-auto  ProjectRow'>
                     <Col sm={12} md={4} className="my-auto">
-                        <Link to="Challenge" target='_blank'>
+                        <Link to={"pages/project/Challenge"} target='_blank'>
                             {/* <Image src="holder.js/171x180" rounded /> */}
                             <Card style={{/* width: '100%'*/ }} className='roundedCorners'>
                                 <Card.Img variant="top" src="holder.js/100px180" />

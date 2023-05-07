@@ -9,7 +9,7 @@ import Challenge from './pages/project/Challenge';
 export default function AboutMe() {
     return (
         <>
-            <Challenge />
+            {/* <Challenge /> */}
 
             <Row className='toScrollPad' id="aboutMe">
                 <Col className='text-center my-auto'>
