@@ -9,6 +9,21 @@ module.exports = {
     },
     module: {
         rules: [
+            
+            {
+                test: /\.(wav|mp3)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]',
+                      outputPath: 'sounds/'
+                    }
+
+                }]
+        }
+
+            ,
             {
                 test: /\.html$/i,
                 loader: 'html-loader',
@@ -25,7 +40,8 @@ module.exports = {
             {
                 test: /\.(png|jpe?g|gif)$/i,
                 use: ['file-loader']
-            }
+            },
+            
         ]
     },
     resolve: {

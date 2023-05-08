@@ -167,9 +167,7 @@ body {
 
 .col-md-4>.card {
     width: 100%;
-    overflow: scroll;
-    /* background: red; */
-    /* height: 83%; */
+    /* overflow: scroll; */
 }
 
 
