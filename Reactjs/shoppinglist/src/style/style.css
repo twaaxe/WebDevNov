@@ -40,7 +40,7 @@ body {
 
 /* HEADER */
 
-.navbar {
+.Navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -48,8 +48,9 @@ body {
     z-index: 1000;
     height: 60px;
     background: #C5B5A5 !important;
-    color: black !important;
+    color: rgb(221, 221, 221) !important;
     margin: 0;
+    padding: 5px 20px;
 
 }
 
@@ -131,11 +132,10 @@ body {
 
     border: 1px solid black;
     border-top: none;
-    height: 100%;
+    min-height: 100%;
     padding-top: 3%;
     padding-bottom: 5%;
     margin: auto 2%;
-    overflow: scroll;
     background: #F2E5D5;
     border-radius: 1% 7% 18% 2%;
 }
@@ -144,8 +144,6 @@ body {
 
 /* PROJECT */
 .ProjectRow {
-    /* box-sizing: content-box; */
-    overflow: scroll;
     height: 100vh;
     padding: 1%;
 

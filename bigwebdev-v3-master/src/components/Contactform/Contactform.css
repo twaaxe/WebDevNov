@@ -1,0 +1,56 @@
+.form-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid > input {
+  border: 1px solid #31302f65;
+  border-radius: 4px;
+  outline: none;
+  padding: 8px 8px;
+  font-size: 16px;
+}
+
+.form-grid > label,
+input {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form-grid > textarea {
+  height: 200px;
+  border: 1px solid #31302f65;
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+  font: inherit;
+  margin-top: 12px;
+  margin-bottom: 40px;
+  padding: 8px 8px;
+  font-family: "satoshi";
+  font-size: 17.5px;
+}
+
+.form-grid > button {
+  height: 60px;
+  width: 160px;
+  margin: auto;
+  background: var(--black);
+  color: var(--white);
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  border: 2px solid var(--black);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-grid > button:hover {
+  background: var(--white);
+  color: var(--black);
+  font-weight: bold;
+}
+
+.form-grid > input:focus,
+.form-grid > textarea:focus {
+  border: 1px solid var(--black);
+}

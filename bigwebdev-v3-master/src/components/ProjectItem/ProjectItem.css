@@ -1,0 +1,22 @@
+.projectItem {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#yellow {
+  background: #ffce43;
+}
+
+#green {
+  background: #34a853;
+}
+
+#red {
+  background: #dd4c40;
+}
+
+#blue {
+  background: #4285f4;
+}
