@@ -6,9 +6,9 @@ import { Container } from 'react-bootstrap'
 
 export default function MusicApp() {
 
-    const myHtml = `  <div class="container">
+    const myHtml = `  
 
-    <div class="keys">
+    <div class="keys container-fluid" id="musicAppBody">
         <div data-key="65" class="key">
             <kbd>A</kbd>
             <span class="sound">boom</span>
@@ -56,12 +56,12 @@ export default function MusicApp() {
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
-</div>
+
 <script src="music.js"></script>`;
     return (
 
         
-        <Container>
+        <Container fluid>
                 <div dangerouslySetInnerHTML={{ __html: myHtml }} />;
             </Container>
     )

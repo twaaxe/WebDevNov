@@ -1,12 +1,4 @@
-// Exercise
-// 1. Use querySelectorAll to select all the keys elements
-// 2. Use querySelectorAll to select all the audio elements
-// 3. Create keydown event listener on document to log the key value of the key that was pressed. (e.key) and add a class of playing to the key element that was pressed
-// 4. Create a function that takes a key value as an argument (data-key="75")
-// 5. Loop through the audio elements and play the audio element that has the same data-key as the key value passed to the function
-// 6. Create switch statement that calls the function with the correct key value for each key
-// 7. Test it out!
-
+import { Howl, Howler } from 'howler';
 
 //1
 const allKeys = document.querySelector(".container > .keys")
@@ -15,23 +7,26 @@ arrayAllKeys = Array.from(allKeys)
 
 function play(key){
 
-
 }
 
-
-
-document.addEventListener('keyup', (e)=>{
-     console.log(e.keyCode)
+document.addEventListener('keydown', (e)=>{
+    console.log(e.keyCode)
     let audio;
+
+    Howler.volume(1.0)
+    const sound = new Howl({
+        src: ['sounds/clap.wav']
+      });
     
     switch (e.keyCode){
         //a
         case (65) :
             // const audio =new Audio( document.querySelector("audio[data-key='65']"))
             // audio.play();
-
-            audio = new Audio("sounds/clap.wav")
-            audio.play()
+            console.log(e.keyCode)
+            // audio = new Audio("sounds/clap.wav")
+            // audio.play()
+            sound.play()
             break;
 
         //s

@@ -12,7 +12,7 @@ import iconTwitter from '../../challenge-main/images/icon-twitter.svg'
 
 export default function Challenge() {
 
-    const myHtml = `<body >
+    const myHtml = `<Container id="challengeBody" >
 
     <nav>
         <ul>
@@ -149,7 +149,7 @@ export default function Challenge() {
     </div>
 
 
-</body>`
+</Container>`
 
     return (
 

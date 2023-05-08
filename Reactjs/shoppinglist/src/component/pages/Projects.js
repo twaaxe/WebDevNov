@@ -10,7 +10,8 @@ export default function Projects() {
             <Container className=' text-center  '>
                 <Row className=' mx-auto  ProjectRow'>
                     <Col sm={12} md={4} className="my-auto">
-                        <Link to="/component/pages/project/Challenge" target='_blank'>
+                        <a href="https://firstwebsitechallenge.netlify.app/" target="_blank">
+                        {/* <Link to="/component/pages/project/Challenge" target='_blank'> */}
                             {/* <Image src="holder.js/171x180" rounded /> */}
                             <Card style={{/* width: '100%'*/ }} className='roundedCorners'>
                                 <Card.Img variant="top" src="holder.js/100px180" />
@@ -23,7 +24,8 @@ export default function Projects() {
 
                                 </Card.Body>
                             </Card>
-                        </Link>
+                        {/* </Link> */}
+                        </a>
                     </Col>
 
                     <Col sm={12} md={4} className="my-auto">
@@ -45,8 +47,9 @@ export default function Projects() {
 
 
                     <Col sm={12} md={4} className="my-auto">
+                        <a href="https://musicapptwagirayezuaxel.netlify.app/" target="blank">
                         {/* <Image src="holder.js/171x180" rounded /> */}
-                        <Link to="/component/pages/project/MusicApp">
+                        {/* <Link to="/component/pages/project/MusicApp"> */}
                             <Card style={{/* width: '100%'*/ }} className='roundedCorners'>
                                 <Card.Img variant="top" src="holder.js/100px180" />
                                 <Card.Body>
@@ -58,7 +61,8 @@ export default function Projects() {
 
                                 </Card.Body>
                             </Card>
-                        </Link>
+                        {/* </Link> */}
+                        </a>
                     </Col>
 
                    
